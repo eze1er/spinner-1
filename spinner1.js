@@ -4,5 +4,5 @@ for (const array1 of array) {
   setTimeout(() => {
     process.stdout.write(`\r${array1}  `)
   }, count);
-  count += 200
+  count += 400
 } 
